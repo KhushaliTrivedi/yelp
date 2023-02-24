@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <% if(campground.images.length){ %>
-                    <img class="img-fluid" style="object-fit: fill;" src="<%= campground.images[0].url %>" alt="">
+                    <img style="width:200px;height:200px;object-fit: fill;" src="<%= campground.images[0].url %>" alt="">
                     <% }else{ %>
                     <img class="img-fluid" style="object-fit: fill;" src="https://res.cloudinary.com/daydkxqmx/image/upload/v1664973163/YelpCamp/albxtzhwnczsri1n4kgm.jpg" alt="">
                         <% } %> 
